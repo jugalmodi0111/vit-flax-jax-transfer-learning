@@ -124,11 +124,10 @@ vit-flax-jax-transfer-learning/
 **Mermaid Diagram: Repo Structure**  
 ```mermaid
 graph LR
-    A["Repo Root"] --> B["JAX2TF-ViT-FLAX.ipynb\n(Setup + ViT Demo)"]
-    A --> C["README.md\n(Instructions)"]
-    A --> D["trim_report.json/csv\n(Cleanup Reports)"]
-    A --> E["trim_log.txt\n(Deletion History)"]
-    A --> F["flax/\n(Library Backup)"]
+    A[Repo Root] --> B[JAX2TF-ViT-FLAX.ipynb<br/>Main Notebook]
+    A --> C[README.md<br/>Instructions]
+    A --> D[Reports<br/>JSON/CSV/Logs]
+    A --> E[flax/<br/>Library Backup]
     style B fill:#ff9
 ```
 
