@@ -198,12 +198,12 @@ flowchart TD
 **Mermaid Flowchart: Full Training Workflow**  
 ```mermaid
 flowchart LR
-    A[Load CIFAR-10 Data] --> B[Preprocess Images<br/>(Resize + Augment)]
-    B --> C[Load Pre-Trained ViT<br/>(From TF Hub)]
-    C --> D[Add Classifier Head<br/>(Dense Layer for 10 Classes)]
-    D --> E[Train: Feed Batches<br/>(Adjust Weights via Backprop)]
-    E --> F[Evaluate: Test Accuracy<br/>(e.g., 75% on Unseen Images)]
-    F --> G[Inference: Predict New Photo<br/>(e.g., "Dog!") ]
+    A["Load CIFAR-10 Data"] --> B["Preprocess Images\n(Resize + Augment)"]
+    B --> C["Load Pre-Trained ViT\n(From TF Hub)"]
+    C --> D["Add Classifier Head\n(Dense Layer for 10 Classes)"]
+    D --> E["Train: Feed Batches\n(Adjust Weights via Backprop)"]
+    E --> F["Evaluate: Test Accuracy\n(e.g., 75% on Unseen Images)"]
+    F --> G["Inference: Predict New Photo\n(e.g., Dog!)"]
     style E fill:#f96
 ```
 
