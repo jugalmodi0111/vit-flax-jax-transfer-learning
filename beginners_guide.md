@@ -150,11 +150,11 @@ Follow the notebook's flow. Each step has code examples and what happens.
 **Flowchart: Setup Process**  
 ```mermaid
 flowchart TD
-    Start[Open Notebook] --> Install[Install Packages<br/>(JAX, Flax, TF)]
-    Install --> Check[Verify Imports<br/>(e.g., nn.Dense?)]
-    Check --> Fallback{Install Failed?}
-    Fallback -->|Yes| UseLocal[Import from flax/ Folder]
-    Fallback -->|No| Success[All Good!]
+    Start["Open Notebook"] --> Install["Install Packages\n(JAX, Flax, TF)"]
+    Install --> Check["Verify Imports\n(e.g., nn.Dense?)"]
+    Check --> Fallback{"Install Failed?"}
+    Fallback -->|"Yes"| UseLocal["Import from flax/ Folder"]
+    Fallback -->|"No"| Success["All Good!"]
     UseLocal --> Success
 ```
 
