@@ -40,10 +40,10 @@ Traditional image AI (like old CNNs) scans pixels like a sliding window. ViT, in
 **Mermaid Flowchart: ViT Process**  
 ```mermaid
 flowchart TD
-    A[Input Image<br/>(e.g., Cat Photo)] --> B[Divide into Patches<br/>(196 small squares)]
-    B --> C[Convert to Vectors<br/>(Numbers for colors/shapes)]
-    C --> D[Transformer Layers<br/>(Attention: "Look at eyes! Ignore grass")]
-    D --> E[Output Prediction<br/>"Cat (98%)"]
+    A["Input Image<br/>(e.g., Cat Photo)"] --> B["Divide into Patches<br/>(196 small squares)"]
+    B --> C["Convert to Vectors<br/>(Numbers for colors/shapes)"]
+    C --> D["Transformer Layers<br/>(Attention: &quot;Look at eyes! Ignore grass&quot;)"]
+    D --> E["Output Prediction<br/>&quot;Cat (98%)&quot;"]
     style A fill:#f9f
     style E fill:#bbf
 ```
