@@ -10,6 +10,11 @@ This project provides an end-to-end pipeline for:
 - Loading and preprocessing datasets via TensorFlow Datasets (TFDS)
 - Fine-tuning pre-trained Vision Transformers on custom datasets with simple, well-explained code
 
+
+https://github.com/user-attachments/assets/7c5e0d6a-cea1-4bac-91ae-e596a1f0ccf5
+
+
+
 ## Key Features
 
 ### 1. **Smart Flax Environment Setup**
@@ -231,8 +236,6 @@ This notebook is provided as-is for educational and research purposes.
 - **TensorFlow**: Apache 2.0 License
 - **ViT models**: Vary by source; check TF Hub handles for specifics
 
-
-https://github.com/user-attachments/assets/7c5e0d6a-cea1-4bac-91ae-e596a1f0ccf5
 
 
 Please respect dataset licenses (CIFAR-10: free for research; ImageNet: registration required).
