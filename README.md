@@ -231,6 +231,10 @@ This notebook is provided as-is for educational and research purposes.
 - **TensorFlow**: Apache 2.0 License
 - **ViT models**: Vary by source; check TF Hub handles for specifics
 
+
+https://github.com/user-attachments/assets/7c5e0d6a-cea1-4bac-91ae-e596a1f0ccf5
+
+
 Please respect dataset licenses (CIFAR-10: free for research; ImageNet: registration required).
 
 ## Acknowledgments
